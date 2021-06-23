@@ -5,7 +5,7 @@ function Card (props) {
      <div className="card mb-5 mb-lg-0">
          <div className="card-body">
          <h5 class="card-title text-muted text-uppercase text-center">{props.data.plan}</h5>             {/* plan is title of card */}
-         <h6 class="card-price text-center">{props.data.price}</h6>               {/* card is price of card */}
+         <h6 class="card-price text-center">{props.data.price}</h6>               {/*this card is price of card */}
          <hr/>
          <ul className="fa-ul">
              {
